@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Maati | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #007acc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            display: block;
+            max-width: 150px;
+            border-radius: 50%;
+            margin: 10px auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .project, .experience {
+            margin-bottom: 20px;
+        }
+
+        .project a {
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <h1>Felix Maati</h1>
+        <p>Building robust and scalable software solutions</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Felix Maati" class="profile-pic">
+        <p>I am a software engineer with a passion for building intuitive user experiences and efficient backend systems. I specialize in JavaScript, React, and Python, and I have a background in software engineering from Moringa School and KCA University.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div><h3>Languages</h3><p>JavaScript, Python, HTML, CSS, SQL</p></div>
+            <div><h3>Frameworks</h3><p>React, Flask, Node.js</p></div>
+            <div><h3>Tools</h3><p>Git, Docker, Figma</p></div>
+            <div><h3>Soft Skills</h3><p>Problem-solving, Teamwork, Communication</p></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Flatacuties</h3>
+            <p>A voting app for cute animals.</p>
+            <p><strong>Technologies:</strong> React, JSON Server</p>
+            <a href="https://github.com/felixmaati/flatacuties">View Code</a>
+        </div>
+        <div class="project">
+            <h3>Flatdango</h3>
+            <p>A movie ticket purchasing platform.</p>
+            <p><strong>Technologies:</strong> JavaScript, API Integration</p>
+            <a href="https://github.com/felixmaati/flatdango">View Code</a>
+        </div>
+        <div class="project">
+            <h3>Bot Battlr</h3>
+            <p>Manage your bot army in this interactive app.</p>
+            <p><strong>Technologies:</strong> React, Flask API</p>
+            <a href="https://github.com/felixmaati/bot-battlr">View Code</a>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Software Engineer</h3>
+            <p><strong>Tecksavy</strong> | 2020 - Present</p>
+            <ul>
+                <li>Developed scalable web applications using React and Flask.</li>
+                <li>Collaborated with cross-functional teams to design user-focused solutions.</li>
+                <li>Implemented CI/CD pipelines for efficient deployment.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:felixmaati@example.com">felixmaati@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/felixmaati">linkedin.com/in/felixmaati</a></p>
+        <p>GitHub: <a href="https://github.com/felixmaati">github.com/felixmaati</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Felix Maati. All rights reserved.</p>
+    </footer>
+</body>
+</html>
